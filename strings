@@ -1,0 +1,4 @@
+used to extract strings from a file
+
+can use a custom script goes like this
+strings <file> | grep <flagname>
