@@ -1,0 +1,16 @@
+free hex editor
+https://play.picoctf.org/practice/challenge/112?category=4&page=1
+{tunnel vision}
+opened a "unidentified file in a hex editor , found out it a bmp by seeing its first byte"
+  42 4d 8e 26 2c 00 00 00 00 00 36 00 00 00 28 00         -> BMŽ&,"
+  BM states its a bitmap, so we load a leit bitmap because our wont load , compare the bits and make some similiar in the first line
+open file again and well soemthing does appear howverer not a flag, use exiftool to find height and width coz image looks cut conver that value to hex
+and try inc it so u can get bigger view
+
+boom image appears and solved; the value was 850 in normal
+
+
+1. Look at the header to identify what type of file it is (HXD for Windows).
+2. Compare the header of the corrupt file to a non-corrupt file (HXD for Windows). 
+3. Change the bitmap width and height (exiftool tool to identify the width and height, python hex function to convert decimal to hex, keep in mind that you might have to convert it from big to little endian or the other way around).
+4. The challenge name usually is a hint.
