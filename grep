@@ -1,0 +1,4 @@
+grep can work throught multiple files at a time through a directry very cool 
+
+command i used 
+grep -r "picoCTF" big-zip-files 
