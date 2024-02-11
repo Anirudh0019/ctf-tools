@@ -1,0 +1,4 @@
+cat displays the contents of a file. Knowing that the file /etc/crontab is where a Linux server keeps track 
+of periodic tasks is something you would need to know or find out via a web search.
+
+cat /etc/crontab   displays current running periodic tasks
