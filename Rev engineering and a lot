@@ -1,0 +1,4 @@
+we can try to break a password using 
+fcrackzip -u -v -D -p ~/rockyou.txt smss.doc(file to be broken)
+if not a PKzip file can use 7zip-crack
+hexeditor is useful
