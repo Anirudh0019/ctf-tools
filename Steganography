@@ -1,0 +1,10 @@
+image file -
+  use file to check extension
+  can be "LSB" steganography tech
+  use <zsteg> reveals texts hidden in images
+  use <Stegsolve.jar> for processing image with various techniques (invert color, xor etc)
+  can try ceaser cipher 
+  can try base64 -d
+  string command is also a thing
+  use binwalk -e to fuck open any file
+  
